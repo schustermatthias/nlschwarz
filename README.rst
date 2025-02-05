@@ -47,7 +47,7 @@ Lastly, the function examples.compute_condition_numbers_gmres(...) computes the 
 
 Raw Data
 ========
-The raw data of the examples of the Dirichlet and the Neumann problem as well as the patch tests can be found under nlschwarz/results/folder. The results of the GMRES examples can be found in the paper and easily be reproduced as described above.
+The raw data of the examples of the Dirichlet and the Neumann problem as well as the patch tests can be found under nlschwarz/results/paper. The results of the GMRES examples can be found in the paper and easily be reproduced as described above.
 
 License
 =======

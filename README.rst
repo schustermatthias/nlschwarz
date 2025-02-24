@@ -14,14 +14,6 @@ On Ubuntu this can be done via
   sudo apt-get install git gcc g++ libarmadillo-dev liblapack-dev libmetis-dev
   sudo apt-get install python3-venv python3-dev libgmp-dev libcgal-dev
 
-| See https://gitlab.uni-trier.de/pde-opt/nonlocal-models/nlfem for more information.
-| Moreover to run nlshape **legacy FEniCS(version 2019.1.0)** is required. In order to use FEniCS in a virtual environment, it may has to be 
-installed globally and then inherited as a global site package. A virtual environment can be built and activated via
-::
-  mkdir venv
-  python3 -m venv venv/
-  source venv/bin/activate
-
 Additionally the packages from the file **requirements.txt** are neccessary and can be installed by
 ::
   (venv) python3 -m pip install -r requirements.txt
@@ -47,7 +39,7 @@ Lastly, the function examples.compute_condition_numbers_gmres(...) computes the 
 
 Raw Data
 ========
-The raw data of the examples of the Dirichlet and the Neumann problem as well as the patch tests can be found under nlschwarz/results/folder. The results of the GMRES examples can be found in the paper and easily be reproduced as described above.
+The raw data of the examples of the Dirichlet and the Neumann problem as well as the patch tests can be found under nlschwarz/results/paper. The results of the GMRES examples can be found in the paper and easily be reproduced as described above.
 
 License
 =======

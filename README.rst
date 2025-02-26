@@ -22,7 +22,8 @@ The creation of the virtual environment and the installation of packages from re
 Finally, nlfem can be installed by
 ::
   (venv) python3 setup.py build --force install
-  
+
+| See https://gitlab.uni-trier.de/pde-opt/nonlocal-models/nlfem for more information.
 Running the Examples from the Paper
 ===================================
 In order to run an example from the paper just uncomment the corresponding line in main.py and execute main.py. If you would like to produce the results of one single example, execute examples.dirichlet_problem(...), examples.dirichlet_5_domains(...), examples.neumann_problem(...) or examples.patch_test(...).
